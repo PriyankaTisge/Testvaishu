@@ -1,0 +1,29 @@
+package com;
+
+public class test 
+{
+
+     int student_id;
+	String student_name;
+	int contact_no;
+
+	public test(int student_id,String student_name,int contact_no)
+	{
+	this.student_id=student_id;
+	this.student_name=student_name;
+	this.contact_no=contact_no;
+	
+	}
+
+	public static void main(String[]args)
+	{
+	test a=new test(10,"pratiksha",975456976);
+	System.out.println("student_id : " +a.student_id +" " + "student_name : " +a.student_name+" "+"contact_no : " +a.contact_no);
+
+	}
+
+
+
+	}
+
+output:1234567
